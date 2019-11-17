@@ -1,0 +1,59 @@
+body {
+    margin: auto 0;
+    padding: 0;
+    background-color: pink;
+}
+.navbar {
+    margin-top: 30px;
+}
+.nav-link {
+    color: rgba(0,0,0,.5);
+}
+
+h1,h3,h4,p {
+    margin-bottom: 0;
+}
+.flex {
+    display: flex;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    padding: 20px 10px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0 40px;
+}
+
+body h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.how {
+    border: 1px dotted black;
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    margin: 30px 43px;
+    text-align: center;
+}
+
+#operators {
+    height: 450px;
+}
+#keyword {
+    height: 200px;
+}
+#basic {
+    position: relative;
+    top: 50px;
+}
+#datetype {
+    height: 450px;
+    position: relative;
+    left: 482px;
+    top: 50px;
+}

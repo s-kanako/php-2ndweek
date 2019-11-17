@@ -1,0 +1,222 @@
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="1-2_.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="1-1_homework.html">Tutrial ①<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1-2_homework.html">Tutrial　②</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1-3_homework.html">Tutrial ③</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/phpbasic/homework/2_homework.php">Synax.php</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/phpbasic/homework/3_if.php">If</a>
+                </li>
+                </ul>
+            </div>    
+    </nav>
+
+
+        <h1>PHP Tutrial website</h1>
+        <h3>statement</h3>
+
+        <div class="flex">
+            <div class="box" id="if">
+                <h3>⑥if</h3>
+                <p>▶︎"If" is used to devide the processing by a condition</p>
+                <div class="how">
+                    <h5>How to use !👈</h5> 
+                    <div class="epl">
+                        $var = someting;
+
+                        if (condition1) {
+                            echo "Something";
+                        } <br>↑
+                        　It'll print when condition is correct.
+                        <p　class="ex">for example</p>
+                        <p>$x = 10;
+                        if ($x <= 20) {
+                            echo "Hello"
+                        } 
+                        Then contision is correct,"Hello" is printed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" id="else">
+                <h3>⑦if-else</h3>
+                <p>▶︎"if-else" is same "If".</p>
+                <p>But,"If-else" can decide the ○○　<br>　when condition1 is false . </p>
+                <div class="how">
+                    <h5>How to use !👈</h5>
+                    <div class="epl">
+                        $var = something; <br>
+                        if (concition1) {<br>
+                            when condition1 is  correct, something is printed.<br>
+                        }  <br> else  {<br>
+                            when condition1  is false, something is printed.<br>
+                        }
+                        <p>for example</p>
+                            <p> $x = 1; $y = 2;</p>
+                            <p>if ($x =+ $y <= 10) {
+                                echo "Correct";　（←this is printed.)
+                            } else {
+                                echo "False";
+                            }</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box" id="elseif">
+                <h3>⑧if-elseif-else</h3>
+                <p> ▶︎This can set many conditions .</p>
+                <div class="how">
+                    <h5>How to use !👈</h5> 
+                    <div class="epl">
+                        if (condition1) {
+                            when condition1 is correct,somethig is printed.
+                        } else if (condition2) {
+                            when condition2 is correcr,something is printed.
+                        } else if(condition3) {
+                            when condition 4 is correct,something is printed.
+                        } else {
+                            every conditions are false, here is printed.
+                        }
+                        <h6>for example</h6>
+                        $x = 5;
+                        if ($x > 10) {
+                            echo "Hello.";
+                        }
+                        else if ($x == 10) {
+                            echo "Hi";
+                        } else if ($x < 3) {
+                            echo "Good moring";
+                        } else {
+                            echo "Bye";(←Then, this is printed.)
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+            <div class="box" id="switch">
+                <h3>⑨switch</h3>
+                <p>▶︎We need "break",because it prevents to execute automatically.</p>
+                <p>"Default" is used not to matc with any conditions . </p>
+
+                <div class="how">
+                    <h5>How to use !👈</h5> 
+                    
+                    <div class="epl">
+                        switch (x) { <br>
+                            case  "":
+                            echo "code is executed if it is correct";<br>
+                            break;<br>
+                            case "";<br>
+                            echo "code is exectued if it is correct";<br>
+                            break;<br>
+                            default: "code is executed when above casea are not match.";<br>
+                        }
+                        <p>for example</p>
+                            $fav = "pink";<br>
+                            switch ($fav) {
+                                case "pink":
+                                    echo "I like pink"; →This will be printed.
+                                break;
+                                case "green":
+                                    echo "I like green";
+                                break;
+                                default: "I like  orange";
+                            }
+                    </div>                       
+                </div>
+            </div>
+
+            
+        <h3>loops</h3>
+            
+        <div class="flex">
+            <div class="box">
+                <h3>⑩while</h3>
+                <p>▶︎loops through a block of code as long as the specified condition is true</p>
+
+                <div class="how">
+                    <h5>How to use !👈</h5> 
+                    <div class="epl">
+                        $x = 1;
+                        while (condition) {
+                            echo "something";   
+                        }
+                        <p>for example</p>
+                        $x = 10;
+                        while ($x <= 40) {
+                            echo $x;
+                        }
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box" id="do">
+                <h3>⑩do while</h3>
+                <p>▶︎After execting the block,checking the condition.</p>
+                
+                <div class="how">
+                    
+                    <h5>How to use !👈</h5> 
+                    <div class="epl">
+                        do { <br>
+                            echo "something";<br>
+                            $x ++:<br>
+                        } while (condition);<br>
+                        <p>for example</p>
+                        $x = 12;<br>
+                        do {<br>
+                            echo "Correct";<br>
+                            $x ++;<br>
+                        } while ($x <= 20);<br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" id="for">
+                <h3>⑪for</h3>
+                <p>▶︎This is used when we know how many times this code is looped.</p>
+                <div class="how">
+                    <h5>How to use !👈</h5> 
+                    <div class="epl">
+                        <p>for (init counter; test counter; increment) { <br>
+                                echo $x;<br>
+                            }</p>
+                        <p>for example</p>
+                        <p>for ($x = 1;$x <= 20;$x ++) {<br> 
+                            echo $x;
+                        }</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+    
+</html>
